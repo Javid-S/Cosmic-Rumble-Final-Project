@@ -48,6 +48,9 @@ def title_screen(screen, font):
     # Draw glowing SELECT WORLD in center of screen
     select_rect = draw_glowing_text(screen, "SELECT WORLD", font, (255, 215, 0), (255, 230, 100), 400, 300, center=True)
 
+    draw_text_with_shadow(screen, "The worlds have shattered. Chaos has begun.", font,
+                      (200, 100, 255), (20, 0, 40), 400, 560, center=True)
+
     pygame.display.update()
 
     while True:
