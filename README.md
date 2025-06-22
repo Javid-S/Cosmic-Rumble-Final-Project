@@ -1,52 +1,71 @@
-# Cosmic Rumble 🚀
+# 🌌 Cosmic Rumble
 
-Cosmic Rumble is a pixel-art inspired arcade-style shooter game developed as a final project for Stanford’s Code in Place 2025. It features fast-paced action across three visually distinct worlds: Elf Kingdom, Tech Heights, and Cyber Hell.
+Welcome to **Cosmic Rumble** — a pixel-art inspired arcade shooter built with Pygame for Stanford’s [Code in Place](https://codeinplace.stanford.edu/) 2025.
 
-## 🌟 Inspiration
+In this game, worlds have shattered, and chaos has begun. Rifts in the cosmic fabric have merged realms of magic, technology, and hellfire — and you're caught in the middle of it all.
 
-This project is a creative homage to the classic **Space Impact** game that came pre-installed on early mobile phones. I wanted to recreate that fun, addictive energy—but with my own twist: multiple worlds, chaotic dimension rifts, and stylized pixel art.
+---
 
 ## 🎮 Features
 
-- 3 unique themed worlds with custom enemies, bosses, bullets, and backgrounds
-- Smooth player movement, shooting, and collision detection
-- Boss battles that scale in difficulty
-- Retro-inspired fonts and UI
-- World selection screen with glowing effects and stylized menu
-- Designed using **Pygame** and beginner-friendly code structure
+- 🌍 **Three unique worlds**: Elf World, Tech World, Cyber Hell  
+- 👾 **Dynamic enemies & bosses**, themed per world  
+- 💥 **Challenging boss fights** with zigzag bullets  
+- 🛡️ Lives, score tracking, world-specific assets, and moving backgrounds  
+- 🕹️ Pause menu with options to Resume, Quit World, or Exit Game  
+- 📜 World selection, main menu, and high score saving (top 5)
 
-## 🔀 Story Twist
+---
 
-As the cosmos fractured, worlds collided. Now, an Elf King fights a spaceship, a cyborg rebel takes down a mythical beast, and a space ranger faces a rogue AI. Nothing makes sense anymore… but everything must be saved.
+## 📸 Screenshots
 
-## 🛠️ Tech Stack
+### Title Screen  
+![Title Screen](assets/default/title_bg.png)
 
-- **Python 3.13**
-- **Pygame 2.6.1**
-- Pixel art assets (custom and sourced)
-- VS Code on Windows
+---
 
-## 🚧 Limitations
+## 💡 Inspiration
 
-- Game state isn’t saved between sessions
-- No sound/music (for simplicity)
-- Some asset transitions are abrupt but intentional for contrast
+This game is a personal homage to **Space Impact**, the first digital game I ever played on a Nokia mobile phone. That little pixelated spaceship sparked my love for games, and I’ve always wanted to recreate that magic in my own way — bigger, bolder, with dragons, spaceships, and cyberpunk chaos all rolled into one.
 
-## 📂 How to Run
+---
 
-1. Make sure Python and Pygame are installed.
-2. Clone this repo:
+## 🚀 How to Run
 
-   ```bash
-   git clone https://github.com/Javid-S/Cosmic-Rumble-Final-Project-.git
-   cd Cosmic-Rumble-Final-Project-
 
-3. run the game 
+1. **Install Pygame**  
+   You’ll need Python installed, then run:
 
-    bash
-   
-         python main.py
+   pip install pygame
 
+
+2. **Launch the Game**
+
+   python main.py
+
+---
+
+## 📁 File Structure
+
+CosmicRumble/
+├── assets/ # All world and UI assets
+│ ├── elf_world/
+│ ├── tech_world/
+│ ├── cyber_hell_world/
+│ └── default/
+├── main.py # Game entry point
+├── player.py
+├── enemy.py
+├── boss.py
+├── bullet.py
+├── menu.py
+├── pause.py
+├── ui.py
+├── settings.py
+├── README.md
+
+
+---
 
 🙏 Acknowledgements
 Stanford Code in Place instructors and volunteers
@@ -55,8 +74,12 @@ Pygame documentation and community
 
 Open pixel art asset contributors
 
-Feel free to explore or improve the game. Thanks for playing Cosmic Rumble! 🌌
+---
 
-## Preview
+## 📜 License
 
-![Title Screen](assets/default/title_bg.png)
+Built for educational purposes as part of Stanford's **Code in Place 2025**.
+
+---
+
+Thanks for checking out my project!
