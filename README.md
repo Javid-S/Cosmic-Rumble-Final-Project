@@ -67,7 +67,9 @@ CosmicRumble/
 
 ---
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
+
+
 Stanford Code in Place instructors and volunteers
 
 Pygame documentation and community
